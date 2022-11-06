@@ -1,8 +1,7 @@
-import {studentInformation} from "./students.js";
+import {studentInformation} from './students.js';
 
-studentInformation.map((naam, xyz, location, i) => {
-    let fullSentence = `My name is ${naam.name} and my email adress is ${xyz.email} 
-    and I am from ${location.state}`;
+studentInformation.map((student) => {
+    let fullSentence = `My name is ${student.name} and my email address is ${student.email} and I am from ${student.state}`;
 
     console.log (fullSentence)
 })

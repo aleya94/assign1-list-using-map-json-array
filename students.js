@@ -18,4 +18,3 @@ let studentInformation = [
 ]
 
 export {studentInformation};
-
